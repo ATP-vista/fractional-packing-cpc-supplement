@@ -1,0 +1,22 @@
+Part T: triangle over F_3
+ partitions: 3281  profiles: 12
+ U symmetric in (t,u): True
+ envelope bound on correct inputs out of 729: 108 -> 108 / 729
+ ordered profile triples with bound 108: 7 [((1, 4, 4), (3, 3, 3), (3, 3, 3)), ((2, 3, 4), (3, 3, 3), (3, 3, 3)), ((3, 3, 3), (3, 3, 3), (3, 3, 3))]
+ optimal ordered triples (unlabelled outputs): 4752
+ entropy values among optimal codes (value: count): {np.float64(2.515004590476): 648, np.float64(2.532644626984): 216, np.float64(2.546531581525): 3888}
+ minimum H(T|W) among MAP maximizers = 2.515004590476  closed form 3-(3+16 log_3 2)/27 = 2.5150045904761735
+ spectra at H = 2.515004590476 : {(((4, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1), 27),)}
+ spectra at H = 2.532644626984 : {(((4, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1), 27),)}
+ spectra at H = 2.546531581525 : {(((3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1), 9), ((4, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1), 9), ((5, 3, 3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1), 9))}
+ exact independent spectrum census and rational entropy order: multiplicities [648, 216, 3888], ordered by entropy
+ CONTROL altered entropy census rejected
+ a minimum-entropy MAP maximizer (rows: first input, columns: second input): [[0, 0, 1], [0, 2, 2], [1, 2, 1]] [[0, 0, 1], [0, 2, 2], [1, 2, 1]] [[0, 0, 1], [2, 1, 1], [2, 0, 2]]
+ unbalanced code U,V,W: correct 108 / 729, H = 2.546531581525374
+ linear one-sum code: correct 81 / 729, H = 2.0000000000000044
+ CONTROL smallest-entry envelope for an optimal code: 0 (< 108 so it would be refuted)
+Part G: four-clause gadget
+ F_2 exhaustive optimum: 512 / 4096 = 0.125
+ CONTROL without clause node {AT,BT}: optimum 256 / 1024 = 0.25 (bound 1/4 now reachable)
+ F_3 explicit code: correct 26244 / 531441 = 0.04938271604938271  (4/81 = 0.04938271604938271 )
+ALL ASSERTIONS PASSED

@@ -1,0 +1,11 @@
+F_101 triangle: 100 output labels, largest scalar sum support 21; 9261 < 10201; eleven-bin control exceeds the output budget.
+[2] Example 4.5: posteriors uniform of size 4 = 2^D; A is not affine, has no period, and determines no nonzero linear functional
+[3] control, Example 4.4 over F_3: uniform posteriors of size 3 = q^D with 2 non-coset supports; the coset assertion of Theorem 4.2 fails without V_1 = empty, as stated
+[4] Section 9: S attains 64 = 4*4*4 with box slices of equal sides and no nonzero period; 20000 random sets respect the bound
+[5] parabola code: P_c = 1/p and H = 2 - 1/p for p = 3, 5, 7, 11
+[6] padded two-block network, s = 1, 2, 3: fractional packing 3 (certified), integral packing 2
+[7a] Theorem 4.3 over F_2: 3 Shannon cut-attaining codes (up to relabelling); their period groups are exactly the 3 subgroups satisfying (ii); each local quotient code realizes its group; 13 other subgroups fail as controls
+[7b] Theorem 4.3 over F_3 (two nodes, two common demands): 78400 balanced pairs out of 10764961 possible pairs; 4 attain the Shannon cut; period groups = all 4 lines = the subgroups satisfying (ii)
+[1] capped network over F_2, L1=2: 178880 label-normalized map tables, 9 with H(T|W)=D=2; every posterior = (cell translate) x (coset of one G), G = Lemma 4.7 group; non-affine cell factors seen 0 times; control codes with transcript-dependent G: 15954
+[1] capped network over F_2, L1=3: 2862080 label-normalized map tables, 105 with H(T|W)=D=3; every posterior = (cell translate) x (coset of one G), G = Lemma 4.7 group; non-affine cell factors seen 672 times; control codes with transcript-dependent G: 180834
+all checks passed
